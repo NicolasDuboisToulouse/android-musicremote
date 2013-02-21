@@ -1,0 +1,5 @@
+/gen
+/bin
+*.apk
+local.properties
+hs_error*log

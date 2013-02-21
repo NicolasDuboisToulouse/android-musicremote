@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Music Remote</string>
+    <string name="warning">Warning</string>
+    <string name="loading">Loading ...</string>
+    <string name="artist_image_description">Artist Image</string>
+    <string name="artist_default_name">Various Artist</string>
+    <string name="album_image_description">Album Image</string>
+    <string name="album_default_name">Unknown album</string>
+    <string name="year_default"></string>
+    <string name="song_image_description">Song Image</string>
+    <string name="song_default_name">Unknown song</string>
+    <string name="duration_default"></string>
+    <string name="menu">Menu</string>
+    
+    
+</resources>

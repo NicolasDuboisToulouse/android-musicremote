@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+
+    <fragment
+        android:id="@+id/browser"
+        android:name="com.snoopy.android.musicremote.browser.Browser"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/browser" />
+
+    <View style="@style/vertical_separator" />
+
+    <fragment
+        android:id="@+id/player"
+        android:name="com.snoopy.android.musicremote.Player.Player"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/remote_list" />
+
+</LinearLayout>

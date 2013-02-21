@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory
+            android:title="XBMC">
+
+        <EditTextPreference
+                android:key="xbmc_host"
+                android:title="XBMC host name or address"
+                android:summary="IP address or name of the machine running XBMC" />
+        
+    </PreferenceCategory>
+
+     
+</PreferenceScreen>
